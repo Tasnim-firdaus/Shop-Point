@@ -1,5 +1,5 @@
 <html>
     <body>
-        <p>Thank you for loging</p>
+        <h1>Thank you for Login</h1>
     </body>
 </html>

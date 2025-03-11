@@ -6,14 +6,14 @@
         <h1>User Registration</h1>
     </head>
     <body>       
-        <form action="userLog.php">
+        <form action="userLog.php" method="post">
             <fieldset>
             <legend><h3>Personal Information</h3></legend>
                 
             <table>
                <tr>
                <td><label for="fname">First Name: </label></td>
-               <td><input type="text" id="fname" name="fname"></td>
+               <td><input type="text" id="fname" name="fname" required></td>
                </tr>
                 <tr>              
                 <td><label for="lname">Last Name: </label></td>
@@ -41,11 +41,11 @@
             <table>
                 <tr>
                     <td><label for="phn"></label>Phone Number</td>
-                    <td><input type="tel" id="phn" name="phn" ></td>
+                    <td><input type="tel" id="phn" name="phn" required></td>
                 </tr>
                 <tr>
                     <td><label for="add">Address:</label></td>
-                    <td><textarea name="add" id="add"></textarea></td>
+                    <td><textarea name="add" id="add" required></textarea></td>
                 </tr>
                 <tr>
                     <td><label for="dis">District:</label></td>
@@ -83,6 +83,7 @@
 
 
             <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
         </form>
     </body>
 

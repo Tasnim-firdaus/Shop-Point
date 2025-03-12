@@ -24,7 +24,7 @@
     <tr>
     <td><label for="password">Password:</label></td>
     <td><input type="password" id="password" name="password"></td>
-    <tr>
+</tr>
 
     
       <tr>
@@ -138,11 +138,6 @@
   </tr>
 
 
-
-  
-    <td><input type="checkbox" id="monday" name="monday" value="Monday"></td>
-    <td><label for="monday">Monday</label></td>
-  </tr>
   </table>
 
 <table>

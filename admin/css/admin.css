@@ -1,0 +1,49 @@
+* {
+ 
+    margin: 2px;
+ padding: 4px;
+    box-sizing: border-box;
+ }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+ background-color: #444749;
+    margin: 15px;
+ }
+  
+  
+  #user_name {
+    border: 1px solid #cfc8c8;
+  padding: 8px;
+    margin: 5px 0 ;
+  max-width: 300px;
+    display: inline-block;
+}
+
+  
+  fieldset table {
+    
+  margin-top: 5px;
+   border: 5px solid #aaa;
+  
+  padding: 5px;
+    background-color: #c9c5c5;
+ }
+  
+  
+  input[type="submit"] {
+ background-color: #848a85;
+    color: white;
+  padding: 10px 20px;
+    border: none;
+    position: relative;
+  top: 10px;
+    cursor: pointer;
+
+ }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+}
+  

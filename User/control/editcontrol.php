@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '../../model/userdata.php';
+include '../model/userdata.php';
 
 $userdata = null;
 
@@ -30,10 +30,10 @@ if (isset($_SESSION['id'])) {
         if (!empty($new_photo)) {
             $tasnim = pathinfo($new_photo, PATHINFO_EXTENSION);
             $photo = time() . "." . $tasnim;
-            $uploadPath = __DIR__ . '/../uploads/' . $photo;
+            $uploadPath ='../uploads/' . $photo;
 
             // Delete old photo file
-            $oldPath = __DIR__ . '/../uploads/' . $old_photo;
+            $oldPath ='../uploads/' . $old_photo;
             if (file_exists($oldPath)) {
                 unlink($oldPath);
             }

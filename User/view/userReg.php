@@ -1,5 +1,5 @@
 <?php
-include '../../control/userRegcontrol.php';
+include '../control/userRegcontrol.php';
 ?>
 <html>
 <head>

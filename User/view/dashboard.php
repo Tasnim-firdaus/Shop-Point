@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include '../../control/dashboardcontrol.php'; 
+include '../control/dashboardcontrol.php'; 
 ?>
 
 <!DOCTYPE html>
@@ -16,7 +16,7 @@ include '../../control/dashboardcontrol.php';
 <?php if ($userdata) { ?>
 
     <?php 
-    $photoPath = "../../uploads/" . $userdata['photo']; 
+    $photoPath = "../uploads/" . $userdata['photo']; 
     if (!empty($userdata['photo']) && file_exists($photoPath)) {
         echo "<img src='$photoPath' width='150' height='150' alt='Profile Photo'><br><br>";
     } else {

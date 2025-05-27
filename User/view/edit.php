@@ -1,4 +1,4 @@
-<?php include '../../control/editcontrol.php'; ?>
+<?php include '../control/editcontrol.php'; ?>
 
 <!DOCTYPE html>
 <html>
@@ -37,7 +37,7 @@
     <input type="text" name="dis" value="<?php echo $userdata['dis']; ?>"><br><br>
 
     <label>Current Profile Photo:</label><br>
-    <img src="../../uploads/<?php echo $userdata['photo']; ?>" width="120" height="120"><br><br>
+    <img src="../uploads/<?php echo $userdata['photo']; ?>" width="120" height="120"><br><br>
 
     <label>Upload New Photo:</label>
     <input type="file" name="photo"><br><br>

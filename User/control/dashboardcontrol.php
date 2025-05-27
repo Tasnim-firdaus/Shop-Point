@@ -1,6 +1,6 @@
 <?php
 
-include '../../model/userdata.php';
+include '../model/userdata.php';
 
 $userdata = null;
 

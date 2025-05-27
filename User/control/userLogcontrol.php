@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '../../model/userdata.php';
+include '../model/userdata.php';
 
 $phoneError = $passwordError = $loginError = "";
 

@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '../../model/userdata.php';
+include '../model/userdata.php';
 
 if (isset($_SESSION['id'])) {
     $id = $_SESSION['id'];
@@ -10,7 +10,7 @@ if (isset($_SESSION['id'])) {
     $result = selectUser($conn, $id);
     if ($row = mysqli_fetch_assoc($result)) {
         $photoFile = $row['photo'];
-        $filePath = "../../uploads/" . $photoFile;
+        $filePath = "../uploads/" . $photoFile;
 
         // Step 2: Delete the photo file
         if (file_exists($filePath)) {

@@ -1,5 +1,5 @@
 <?php
-include '../../control/userLogcontrol.php';
+include '../control/userLogcontrol.php';
 ?>
 
 <!DOCTYPE html>

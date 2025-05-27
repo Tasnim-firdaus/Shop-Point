@@ -1,5 +1,5 @@
 <?php
-include "../../model/userdata.php";
+include "../model/userdata.php";
 
 $fnameError = $lnameError = $photoError = $birthdayError = $gendError = $phnError = $addError = $passError = $CpassError = "";
 $fname = $lname = $birthday = $gend = $phn = $addr = $dis = $pass = $cpass = $photo = "";
@@ -90,7 +90,7 @@ if (isset($_POST["Submit"])) {
     } else {
         $tasnim = pathinfo($_FILES["photo"]["name"], PATHINFO_EXTENSION);  // <- Your name 😄
         $photo = time() . "." . $tasnim;
-        $uploadPath = __DIR__ . "/../uploads/" . $photo;
+        $uploadPath = "../uploads/" . $photo;
     }
 
     // ✅ If all data is valid, now upload file and insert into DB
